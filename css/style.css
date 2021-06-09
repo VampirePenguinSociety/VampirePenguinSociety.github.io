@@ -175,6 +175,11 @@ main img {
     margin: 4px 2px 4px 6px;
 }
 
+main iframe {
+    width: 100%;
+    height:60vh;
+}
+
 /** Handles the formatting of the asides within the main part **/
 aside {
     grid-area: aside;
