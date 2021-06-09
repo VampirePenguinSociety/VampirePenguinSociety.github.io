@@ -74,7 +74,7 @@ Vue.component('roster-list', {
     props: ['type', 'icon', 'icon_class', 'participants', "needed_num"],
     template: `
     <div class="roster_list">
-    <p><span v-bind:class="icon_class">{{icon}}</span> {{type}} ({{participants.length}}/{{needed_num}}) <span v-bind:class="icon_class">{{icon}}</span></p>
+    <p><strong><span v-bind:class="icon_class">{{icon}}</span> {{type}} ({{participants.length}}/{{needed_num}}) <span v-bind:class="icon_class">{{icon}}</span></strong></p>
     <ol>
         <li v-for="p in participants" v-bind:key="p">{{p}}</li>
     </ol>

@@ -49,6 +49,15 @@ ul, ol {
     padding-left: 32px;
 }
 
+ul li, ol li {
+    margin: 8px 0;
+}
+
+strong {
+    font-weight: bold;
+    color: hsl(350, 70%, 80%);
+}
+
 /** Handles the global styling of links and buttons **/
 a, button {
     color: hsl(350, 70%, 80%);
