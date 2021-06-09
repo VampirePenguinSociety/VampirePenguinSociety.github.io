@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Signups -- Vampire Penguin Society</title>
+        <title>Progression -- Vampire Penguin Society</title>
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/signups.css">
         <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
         <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+        <!-- This script is temporary, mainly provides sample data to work with-->
+        <script src="scripts/sample_trial_info.js" type="text/javascript"></script>
     </head>
     <body>
         <header id="#header">
@@ -18,17 +20,21 @@
             <a href="events.html"><div>Events</div></a>
         </nav>         
         <nav id="secondary_nav">
-            <a href="signups.html" class="activeNav"><div>Signups</div></a>
-            <a href="progression.html"><div>Progression</div></a>
+            <a href="signups.html"><div>Signups</div></a>
+            <a href="progression.html"  class="activeNav"><div>Progression</div></a>
             <a href="calendar.html"><div>Calendar</div></a>
         </nav>
         <main id="root">
             <section>
-                <h1>Signups server not yet set up...</h1>
-                <p>Check back soon...</p>
+                <h1>Progression Team</h1>
+                <p>Vampire Penguin Society's trial progression team is the <strong>VPS Mudballers</strong>.</p> 
+                <p>So far, the team has cleared all of the vCraglorns and the vCraglorn hard modes, and is now progressing through veteran Maw of Lorkhaj.</p>
+                <p>The team does accept new people when we have open spots; however, these spots are filled on an invite-only basis.</p>
+                <p>How to get invited, you ask? Well, running open trials with the guild is a good start. People who get invited are those who respect others, work well with the rest of the team, and listen to the trial host, among other things.</p>
             </section>
             <aside>
-                <article><p>Nothing here yet...</p></article>
+                <article id="roster">
+                </article>
             </aside>
         </main>
         <footer>
@@ -36,5 +42,6 @@
         </footer>
         <!-- And this script handles generating things in the page like the aside panel and footer-->
         <script src="scripts/app.js" type="text/javascript"></script>
+        <script src="scripts/progression.js" type="text/javascript"></script>
     </body>
 </html> 
