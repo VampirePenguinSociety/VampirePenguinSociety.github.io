@@ -2,7 +2,7 @@ const ranks = ["Vampguin Lord", "Master Vampguin", "Royal Vampguin", "Vampguin R
 const rank_descriptions = {
     "Vampguin Lord": { common_name: "Guildmaster", description: "Also known as the guildmaster rank, the Vampguin Lord holds the highest position of power in the guild and has final say on all things guild-related." },
     "Master Vampguin": { common_name: "Discord Admin", description: "Also known as a discord/tech admin and also the head of the admin team, a Master Vampguin is the Vampguin Lord's right-hand person and in charge of many things, from organizing the rest of the admin team to managing the discord server and other guild tech. They can jump into in-game situations if needed, but that is not their primary role." },
-    "Royal Vampguin": { common_name: "Guild Admin", description: "Also known as guild admins, Royal Vampguins are the primary handlers of in-game situations and responsibilities, ranging from recruitment of new members to moderating in-game chat to handing out punishments if needed." },
+    "Royal Vampguin": { common_name: "Guild Admin", description: "Also known as in-game guild admins, Royal Vampguins are the primary handlers of in-game situations and responsibilities, ranging from recruitment of new members to moderating in-game chat to handing out punishments if needed." },
     "Vampguin Raidmaster": {common_name: "Event Manager", description: "Though not an admin by the traditional sense, Raidmasters help form the backbone of the VPS community, organizing and managing events like trials, gear farms, etc."}
 }
 const admins = {
