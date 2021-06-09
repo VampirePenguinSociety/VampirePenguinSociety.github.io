@@ -14,6 +14,24 @@ section article div:first-of-type .question {
     margin: 4px;
 }
 
+#quick_nav ol {
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+
+#quick_nav ol li {
+    margin-top: 0px;
+    margin-bottom: 8px;
+
+}
+
 #quick_nav a {
     color: hsl(350, 70%, 90%);
+}
+
+#quick_nav a:hover {
+    color: hsl(350, 70%, 60%);
+}
+#quick_nav a:active {
+    color: hsl(350, 70%, 40%);
 }
