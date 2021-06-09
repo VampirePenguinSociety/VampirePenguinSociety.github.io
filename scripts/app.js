@@ -1,19 +1,26 @@
+Vue.component('newsfeed-item', {
+    props: ['title', 'content'],
+    template: `
+    <article>
+        <h2>{{title}}</h2>
+        <p v-for="c in this.content">{{c}}</p>
+    </article>
+    `
+})
+
 function initAside() {
     if (document.querySelector("#newsfeed")) {
-        document.querySelector("#newsfeed").innerHTML = `
-            <article>
-                <h2>New Website!</h2>
-                <p>With the end of the academic year coming to a close for some on the admin team, they are faced with final projects for various classes. One of these admins happens to be taking a web development course. and so, this site was born.</p>
-                <p>It's still very much a work in progress, so please let the guild admin team know if something is broken or not working.</p>
-            </article>
-            <article>
-                <h2>Quick Links</h2>
-                <p>Beyond the navigation bar, you can also use these quick links to go to commonly-used pages.</p>
-                <ul>
-                    (Insert Links Here)
-                </ul>
-            </article>
-                `
+        new Vue({
+            el: '#newsfeed',
+            template: `
+            <aside  id="newsfeed">
+            <newsfeed-item v-for="announcement in announcements" :title="announcement.title" :content="announcement.content" :key='announcement.title'></newsfeed-item>
+            </aside>
+            `,
+            data: {
+                announcements: announcements
+            }
+        })
     }
 }
 
