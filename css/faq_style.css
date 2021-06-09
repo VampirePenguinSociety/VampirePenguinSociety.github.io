@@ -2,4 +2,18 @@
     font-size: 1.1em;
     font-weight: bold;
     color: hsl(350, 70%, 80%);
+    margin-bottom: 4px;
+    margin-top: 12px;
+}
+
+section article div:first-of-type .question {
+    margin-top: 4px;
+}
+
+.answer {
+    margin: 4px;
+}
+
+#quick_nav a {
+    color: hsl(350, 70%, 90%);
 }
