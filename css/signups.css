@@ -1,0 +1,31 @@
+.roster_list p {
+    font-size: larger;
+    margin-bottom:0;
+}
+
+.roster_list ol {
+    margin: 0;
+}
+
+main section article {
+    padding: 8px;
+    border: 4px solid hsl(350, 70%, 15%);
+}
+
+main button {
+    font-size: 1.2em;
+}
+
+#showSignup, #hideSignup {
+    width: 50%;
+    margin: 2px auto;
+}
+
+input, select, option {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 4px;
+    border: none;
+    margin: 0 2px 12px 2px;
+}
