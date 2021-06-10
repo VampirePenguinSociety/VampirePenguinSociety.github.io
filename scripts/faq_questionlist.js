@@ -71,7 +71,7 @@ const QAList = [
             {
                 number: 5,
                 question: 'How can I get notified whenever trials stuff happens?',
-                answer: ['If you wish to be notified when trials are happening, the #Events-info channel has a message you can react to in order to gain the Vampguin Raider role. Admin cannot give the role because otherwise, the bot throws a hissyfit.']
+                answer: ['If you wish to be notified when trials are happening, the #Events-info channel has a message you can react to in order to gain the Vampguin Raider role. Admins cannot give the role because otherwise, the bot throws a hissyfit.']
             },
             {
                 number: 6,
