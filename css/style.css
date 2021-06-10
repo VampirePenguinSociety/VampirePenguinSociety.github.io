@@ -268,5 +268,8 @@ footer button {
         margin: 0 auto;
         text-align: center;
     }
+    footer button {
+        width: 100%;
+    }
     
 }
