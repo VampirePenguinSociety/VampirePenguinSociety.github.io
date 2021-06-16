@@ -26,7 +26,7 @@ function initAside() {
 
 function initFooter() {
     document.querySelector("footer").innerHTML = `
-    <p>Website designed initally as assignment for Northwestern's CS 396 Web Development Course. This is one of those initial versions.</p>
+    <p>Website designed by Polska_1999 for the Vampire Penguin Society (VPS) guild.</p>
     <button onclick="window.scroll(0,0);">Return to top</button>`
 }
 
