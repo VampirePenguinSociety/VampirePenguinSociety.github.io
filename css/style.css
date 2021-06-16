@@ -166,6 +166,7 @@ main {
 main>section {
     grid-area: section;
     padding: 4px 20px;
+    height: 100%;
 }
 
 main img {
@@ -183,6 +184,7 @@ main iframe {
 
 /** Handles the formatting of the asides within the main part **/
 aside {
+    font-size: 0.9em;
     grid-area: aside;
     background-color: hsl(350, 70%, 10%);
     height: 100%;
@@ -215,7 +217,7 @@ footer button {
     font-size: large;
 }
 
-@media (max-width: 700px) {
+@media screen and (max-width: 700px) {
     body {
         font-size: 1.2em;
         min-height:100%;

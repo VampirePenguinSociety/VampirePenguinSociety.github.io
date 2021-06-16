@@ -15,7 +15,7 @@ const QAList = [
             {
                 number: 3,
                 question: 'Does VPS have a guild hall?',
-                answer: ["We have two: The one by our Guildmaster @Space Keet, which is her Primary residence at Stillwaters Retreat. It has all crafting stations (yes, even jewellery!) but no set stations, Mundus stones or Transmute station. If you are looking for the latter three options, our Affiliated Guildmaster at Klub Kerfuffle @PaxTheWise has allowed us to promote his Guildhall for such matters.", "(Guildmaster Space Keet does not have the time, patience, crowns, gold, OR irl money to get all of the set stations.)"]
+                answer: ["We have two: The one by our Guildmaster @Space Keet, which is her Primary residence at Stillwaters Retreat. It has all crafting stations (yes, even jewelry!) but no set stations, Mundus stones or Transmute station. If you are looking for the latter three options, our Affiliated Guildmaster at Klub Kerfuffle @PaxTheWise has allowed us to promote his Guildhall for such matters.", "(Guildmaster Space Keet does not have the time, patience, crowns, gold, OR irl money to get all of the set stations.)"]
             }
         ]
     },
