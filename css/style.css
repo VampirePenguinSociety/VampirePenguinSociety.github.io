@@ -76,10 +76,10 @@ button {
     text-align: center;
 }
 button:hover {
-    background-color: hsl(350, 70%, 17%);
+    background-color: hsl(350, 70%, 16%);
 }
 button:active {
-    background-color: hsl(350, 70%, 15%);
+    background-color: hsl(350, 70%, 13%);
 }
 button:disabled {
     background-color: hsl(350, 30%, 20%);
@@ -122,10 +122,10 @@ nav a:last-of-type {
     border-right: none;
 }
 nav a:hover {
-    background-color: hsl(350, 70%, 17%);
+    background-color: hsl(350, 70%, 16%);
 }
 nav a:active {
-    background-color: hsl(350, 70%, 15%);
+    background-color: hsl(350, 70%, 13%);
 }
 
 #primary_nav {
@@ -140,11 +140,11 @@ nav a:active {
 
 #secondary_nav {
     grid-area: nav2;
-    font-size: 1.2em;
-    background-color: hsl(350, 70%, 20%);
+    font-size: 1.4em;
+    background-color: hsl(350, 70%, 18%);
 }
 #secondary_nav a {
-    padding: 4px 4px;
+    padding: 8px 4px;
 }
 
 .activeNav, .activeNav:hover, .activeNav:active {
@@ -257,9 +257,6 @@ footer button {
         font-size: 1.2em;
         grid-template-areas: "section" "aside";
         grid-gap: 8px;
-    }
-    #secondary_nav {
-        background-color: hsl(350, 70%, 19%);
     }
     header {
         width: 100%;

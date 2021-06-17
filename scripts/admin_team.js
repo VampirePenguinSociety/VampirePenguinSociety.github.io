@@ -17,10 +17,6 @@ const admins = {
         {
             name: "Higgsbo",
             desc: "Higgsbo is an in-game guild admin and probably the most chill of the admin team. If you see him online, he's probably playing on his tank. He also has the unique responsibility of not only being a guild admin but also being the leader of VPS's progression team, the VPS Mudballers."
-        },
-        {
-            name: "SK",
-            desc: "SK is an in-game guild admin and generally a great person. If you need help with something, she's usually among the first to offer help. She usually plays on a healer toon, and if you ever see her bringing some other role to a trial, you might just be hallucinating."
         }
     ],
     "Vampguin Raidmaster": [
@@ -35,6 +31,10 @@ const admins = {
         {
             name: "ObliviousSky",
             desc: "As one of the more experienced raidmasters, Oblivious has a lot of say about what is hosted and when, sometimes hosting several himself. When participating in events, he often brings plenty of humor for all."
+        },
+        {
+            name: "SK",
+            desc: "SK is a long-time trials host and generally a great person. If you need help with something, she's usually among the first to offer help. She usually plays on a healer toon, and if you ever see her bringing some other role to a trial, you might just be hallucinating."
         }
     ]
 }
