@@ -39,10 +39,6 @@ const admins = {
     ]
 }
 
-for (rank of ranks) {
-    console.log(rank_descriptions[rank])
-}
-
 new Vue({
     el: '#main',
     template: `
