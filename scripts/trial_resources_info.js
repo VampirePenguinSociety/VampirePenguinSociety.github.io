@@ -39,7 +39,7 @@ const trial_resources = {
     "HoF": [{desc: "Alcast's trial guide", link: "https://alcasthq.com/eso-halls-of-fabrication-guide/", type: "webpage"}],
     "AS": [
         { desc: "Alcast's trial guide", link: "https://alcasthq.com/eso-asylum-sanctorium-guide/", type: "webpage" },
-        {dessc: "Saint Olms lanes and kite paths", link: "https://i2.wp.com/alcasthq.com/wp-content/uploads/2018/08/asylum-2-hardmode-guide-asylum-sanctorium-guide.jpg?resize=847%2C644&ssl=1", type:"image"}
+        { desc: "Saint Olms lanes and kite paths", link: "https://i2.wp.com/alcasthq.com/wp-content/uploads/2018/08/asylum-2-hardmode-guide-asylum-sanctorium-guide.jpg?resize=847%2C644&ssl=1", type:"image"}
     ],
     "CR": [{desc: "Alcast's trial guide", link: "https://alcasthq.com/eso-cloudrest-guide/", type: "webpage"}],
     "SS": [{desc: "Alcast's trial guide", link: "https://alcasthq.com/eso-sunspire-trial-guide/", type: "webpage"}],
