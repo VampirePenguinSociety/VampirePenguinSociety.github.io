@@ -50,6 +50,7 @@ new Vue({
         </section>
         <aside>
             <article>
+            <h2>Quick Links</h2>
                 <h3>General Resources</h3>
                 <ul>
                     <li v-for="role in roles" :key="role"><a :href="'#'+role">{{role}}</a></li>

@@ -59,7 +59,7 @@ new Vue({
             </section>
             <aside>
                 <article id="quick_nav">
-                    <h2>Q&A Quick Nav</h2>
+                    <h2>Quick Links</h2>
                     <quick-nav-section v-for="qalist in QAList" :key="qalist.type" :type="qalist.type" :question_list="qalist.QA"> </quick-nav-section>
                 </article>
             </aside>

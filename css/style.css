@@ -182,6 +182,10 @@ main iframe {
     height:60vh;
 }
 
+main section article {
+    margin-bottom: 20px;
+}
+
 /** Handles the formatting of the asides within the main part **/
 aside {
     font-size: 0.9em;
