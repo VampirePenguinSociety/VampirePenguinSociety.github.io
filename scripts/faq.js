@@ -4,7 +4,7 @@ Vue.component('questions-list', {
     `
     <article>
         <h2>{{type}}</h2>
-        <question-answer-pair v-for="qa in question_list" :key="qa.number" :number="qa.number" :question="qa.question" :answer="qa.answer" :type="type"></question-answer-pair>
+        <question-answer-pair v-for="(qa, index) in question_list" :key="index" :number="index" :question="qa.question" :answer="qa.answer" :type="type"></question-answer-pair>
     </article>
     `
 })
@@ -14,7 +14,7 @@ Vue.component('question-answer-pair', {
     template:
     `
     <div>
-    <p class="question" :id="question_id">{{number}}. {{question}}</p>
+    <p class="question" :id="question_id">{{number+1}}. {{question}}</p>
     <p class="answer" v-for="a in answer">{{a}}</p>
     </div>
     `,
@@ -31,7 +31,7 @@ Vue.component("quick-nav-section", {
     <div>
         <h3>{{type}}</h3>
         <ol>
-            <quick-nav-question-link v-for="qa in question_list" :key="qa.number" :number="qa.number" :type="type" :question="qa.question"></quick-nav-question-link>
+            <quick-nav-question-link v-for="(qa,index) in question_list" :key="index" :number="index" :type="type" :question="qa.question"></quick-nav-question-link>
         </ol>
     </div>
     `
