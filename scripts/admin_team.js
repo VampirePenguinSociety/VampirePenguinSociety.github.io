@@ -12,11 +12,15 @@ const admins = {
     }],
     "Master Vampguin": [{
         name: "Polska_1999",
-        desc: "As the discord and tech admin of VPS, Polska_1999 is the tech nerd of the admin team. Responsible for much of the setup on the discord server as well as this website, she is the tech-overlord sibling of the Guildmaster -- just with a shorter fuse at times. She mostly plays a DPS character in ESO; the Raidmasters have tried to convince her to bring a different role to a trial, but thus far that has been mostly a vain attempt."}],
+        desc: "Polska_1999 is the tech nerd of the admin team. Responsible for much of the setup on the discord server as well as this website, she is the tech-overlord sibling of the Guildmaster -- just with a shorter fuse at times. She mostly plays a DPS character in ESO; the Raidmasters have tried to convince her to bring a different role to a trial, but thus far that has been mostly a vain attempt."}],
     "Royal Vampguin": [
         {
             name: "Higgsbo",
             desc: "Higgsbo is an in-game guild admin and probably the most chill of the admin team. If you see him online, he's probably playing on his tank. He also has the unique responsibility of not only being a guild admin but also being the leader of VPS's progression team, the VPS Mudballers."
+        },
+        {
+            name: "CookieWookieWoo",
+            desc: "Cookie is a charismatic guild admin that has a great sense of humour and is often more than ready to join a bout of friendly banter. She is very friendly and always willing to lend a helping hand to those who need it."
         }
     ],
     "Vampguin Raidmaster": [
