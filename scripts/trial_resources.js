@@ -60,6 +60,13 @@ new Vue({
                     <li v-for="trial in trials" :key="trial"><a :href="'#'+trial">{{trials_full[trial]}} ({{trial}})</a></li>
                 </ul>
             </article>
+            <article>
+                <h2>More Help</h2>
+                <p>If you're confused about a build, trial, or resource, be sure to reach out! We're here to help, after all.</p>
+                <p>For role-specific questions, the <strong>#gear-and-build-help</strong> channel in the discord is a good place.</p>
+                <p>If it's a question about a trial that you are signed up for, ask in <strong>#events-discussion</strong> or reach out to the trial host.</p>
+                <p>If it's a general question about a trial, feel free to just ask in <strong>#general</strong>.</p>
+            </article>
         </aside>
     </main>
     `,
