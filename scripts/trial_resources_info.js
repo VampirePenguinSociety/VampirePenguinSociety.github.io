@@ -29,7 +29,10 @@ const trials_full = {
     "RG": "Rockgrove"}
 const trial_resources = {
     "HRC": [{desc: "Alcast's trial guide", link: "https://alcasthq.com/hel-ra-citadel-guide-for-elder-scrolls-online/", type: "webpage"}],
-    "AA": [{desc: "Alcast's trial guide", link: "https://alcasthq.com/eso-aetherian-archive-guide/", type: "webpage"}],
+    "AA": [
+        {desc: "Xynode's mechanics explanations", link: "https://xynodegaming.com/aetherian-archive", type: "webpage"},
+        { desc: "Alcast's trial guide", link: "https://alcasthq.com/eso-aetherian-archive-guide/", type: "webpage" }
+    ],
     "SO": [{desc: "Alcast's trial guide", link: "https://alcasthq.com/eso-sanctum-ophidia-guide/", type: "webpage"}],
     "MoL": [
         { desc: "Alcast's trial guide", link: "https://alcasthq.com/eso-maw-of-lorkhaj-guide/", type: "webpage" },
@@ -43,8 +46,13 @@ const trial_resources = {
         { desc: "Saint Olms full kite paths gif", link: "https://cdn.discordapp.com/attachments/817129965308346430/822466904610045952/AS_Kite_Phase.gif", type: "gif"},
         { desc: "Saint Olms DPS kite paths", link: "https://i2.wp.com/alcasthq.com/wp-content/uploads/2018/08/asylum-2-hardmode-guide-asylum-sanctorium-guide.jpg?resize=847%2C644&ssl=1", type:"image"}
     ],
-    "CR": [{desc: "Alcast's trial guide", link: "https://alcasthq.com/eso-cloudrest-guide/", type: "webpage"}],
-    "SS": [{desc: "Alcast's trial guide", link: "https://alcasthq.com/eso-sunspire-trial-guide/", type: "webpage"}],
+    "CR": [
+        { desc: "Xynode's mechanics explanations", link: "https://xynodegaming.com/Cloudrest/", type: "webpage"},
+        { desc: "Alcast's trial guide", link: "https://alcasthq.com/eso-cloudrest-guide/", type: "webpage" }
+    ],
+    "SS": [
+        { desc: "Alcast's trial guide", link: "https://alcasthq.com/eso-sunspire-trial-guide/", type: "webpage" }
+    ],
     "KA": [{desc: "Alcast's trial guide", link: "https://alcasthq.com/eso-kynes-aegis-trial-guide/", type: "webpage"}],
     "RG": [
         { desc: "Alcast's trial guide", link: "https://alcasthq.com/eso-rockgrove-trial-guide/", type: "webpage" },
